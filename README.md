@@ -27,7 +27,11 @@ import matplotlib.pyplot as plt
 from scipy import stats
 from google.colab import files
 uploaded = files.upload()
-C:\Users\udhay\OneDrive\Pictures\Screenshots\Screenshot 2026-03-15 162305.png
+import pandas as pd
+
+df = pd.read_csv("SAMPLEIDS (6) (2).csv")
+df.head()
+![Output Screenshot]()
 
 # Result
           <<include your Result here>>
